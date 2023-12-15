@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cjlee01_argo_cd_1702656609068-pr-trigger-input-set
+  identifier: Build_cjlee01_argo_cd_1702656609068prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HiteshPipelineGitX
+  pipeline:
+    identifier: Build_cjlee01_argo_cd_1702656609068
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
