@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cjlee01_argo_cd_1702615710528-push-trigger-input-set
+  identifier: Build_cjlee01_argo_cd_1702615710528pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HiteshPipelineGitX
+  pipeline:
+    identifier: Build_cjlee01_argo_cd_1702615710528
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
